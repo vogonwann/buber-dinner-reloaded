@@ -1,10 +1,9 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BuberDinner.Api.Controllers;
 
 [Route("[controller]")]
-public class DinnerController : ApiController 
+public class DinnersController : ApiController
 {
     [HttpGet]
     public IActionResult ListDinners()
